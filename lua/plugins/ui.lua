@@ -30,7 +30,7 @@ return {
     dependencies = { 'nvim-tree/nvim-web-devicons' },
     config = function()
       require('lualine').setup {
-        theme = 'dracula',
+        theme = 'catppuccin',
       }
     end,
   },
@@ -49,7 +49,7 @@ return {
           },
         },
         mode = 'tabs',
-        -- separator_style = 'slant',
+        separator_style = 'slant',
       },
     },
   },
